@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "FuturaLT";
+    src: url("../font/FuturaLT.ttf") format("truetype");
+  }
+
+body {
+    background-color: #f0f0f0ad;
+}
+
+.top-bottom-template {
+    font-family: FuturaLT;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu-buttons {
+    margin-top: 2vh;
+    position: static;
+    color: #2781bb;
+    padding: 2vw;
+    font-size: 3vh;
+}
+
+
+#home-button:hover  {
+    text-decoration: underline;
+}
+
+#realisations-button:hover {
+    text-decoration: underline;
+}
+
+#contact-button:hover {
+    text-decoration: underline;
+}
+
+.logo-principal {
+    position: absolute;
+    margin-left: 75vw;
+    margin-top: -13vh;
+}
+
+#logo-principal-image {
+    height: 15vh;
+    width: 45vh; 
+}
+
+.bottom-links {
+    margin-bottom: 8vh;
+}
+
+#instagram-link-image {
+    position: absolute;
+    margin-left: 37vw;
+    height: 10vh;
+    width: 10vh;
+}
+
+#facebook-link-image {
+    position: absolute;
+    margin-left: 59vw;
+    height: 10vh;
+    width: 10vh;
+}
+
+#lunik-link {
+    position: absolute;
+    text-align: center;
+    color: #2781bb;
+    font-size: 160%;
+    margin-top: 15vh;
+    margin-left: 34vw;
+}
+
+#lunik-link-clickable {
+    text-align: center;
+    color: #2781bb;
+    font-size: 130%;
+}

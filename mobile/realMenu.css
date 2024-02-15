@@ -1,0 +1,70 @@
+.Menu1 {
+	text-decoration: none;
+	color: #1a91bd;
+	font-size: 200%;
+	position: absolute;
+	padding: 0.5%;
+	font-family: Verdana;
+	margin-left: 10%;
+	margin-top: -43%;
+	animation-duration: 2s;
+	animation-name: appMenu1;
+}
+
+.Menu2 {
+	text-decoration: none;
+	color: #1a91bd;
+	font-size: 200%;
+	position: absolute;
+	padding: 0.5%;
+	font-family: Verdana;
+	margin-left: 40%;
+	margin-top: -43%;
+	animation-duration: 2s;
+	animation-name: appMenu2;
+}
+
+.Menu3 {
+	text-decoration: none;
+	color: #1a91bd;
+	font-size: 200%;
+	position: absolute;
+	padding: 0.5%;
+	font-family: Verdana;
+	margin-left: 75%;
+	margin-top: -43%;
+	animation-duration: 2s;
+	animation-name: appMenu3;
+}
+
+
+@keyframes appMenu1 {
+	from {
+		margin-left: 0%;
+		opacity: 0;
+	}
+	to {
+		margin-left:10%;
+		opacity: 100;
+	}
+}
+
+@keyframes appMenu2 {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 100;
+	}
+}
+
+@keyframes appMenu3 {
+	from {
+		margin-left: 100%;
+		opacity: 0;
+	}
+	to {
+		margin-left:75%;
+		opacity: 100;
+	}
+}

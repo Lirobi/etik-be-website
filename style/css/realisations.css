@@ -1,0 +1,84 @@
+
+#logo-etik {
+    position: absolute;
+    margin-top: -55%;
+    margin-left: 35%;
+    width: 35%;
+    height: 17%;
+    animation-duration: 2s;
+    animation-name: logo-etikAPP;
+}
+
+@keyframes logo-etikAPP {
+    from {
+        height: 1%;
+        width: 1%;
+        margin-left: 50%;
+        margin-top: -50%;
+    }
+    to {
+        width: 35%;
+        height: 17%;
+        margin-left: 35%;
+        margin-top: -55%;
+    }
+}
+
+#building-pageTEXT {
+    position: absolute;
+    font-family: verdana;
+    color: #1a91bd;
+    font-size: 300%;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 22%;
+}
+#building-pageIMAGE {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 30%;
+}
+
+
+#link1 {
+	text-decoration: none;
+	font-family: Verdana;
+	color: #0089b6;
+}
+#link1:hover {
+	text-decoration: underline;
+}
+
+
+#link2 {
+	position: absolute;
+	height: 30%;
+	width: 21%;
+	margin-top: 60%;
+	margin-left: 35%;
+}
+
+#link3 {
+	position: absolute;
+	height: 30%;
+	width: 21%;
+	margin-top: 60%;
+	margin-left: 43%;
+}
+
+.text5 {
+	position: absolute;
+	font-family: verdana;
+	margin-top: 80%;
+	margin-left: 30%;
+	font-size: 150%;
+	color: #0089b6;
+	text-align: center;
+}
+
+
+.endOfPage {
+	margin-top: 100%;
+	position: absolute;
+	color: white;
+}

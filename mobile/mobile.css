@@ -1,0 +1,311 @@
+
+/*global menu*/
+
+.Menu1 {
+	text-decoration: none;
+	color: #1a91bd;
+	font-size: 200%;
+	position: absolute;
+	padding: 0.5%;
+	font-family: Verdana;
+	margin-left: 10%;
+	margin-top: -43%;
+	animation-duration: 2s;
+	animation-name: appMenu1;
+}
+
+.Menu2 {
+	text-decoration: none;
+	color: #1a91bd;
+	font-size: 200%;
+	position: absolute;
+	padding: 0.5%;
+	font-family: Verdana;
+	margin-left: 40%;
+	margin-top: -43%;
+	animation-duration: 2s;
+	animation-name: appMenu2;
+}
+
+.Menu3 {
+	text-decoration: none;
+	color: #1a91bd;
+	font-size: 200%;
+	position: absolute;
+	padding: 0.5%;
+	font-family: Verdana;
+	margin-left: 75%;
+	margin-top: -43%;
+	animation-duration: 2s;
+	animation-name: appMenu3;
+}
+
+body {
+	background-image: url("header_bg_img.png");
+	background-repeat: no-repeat;
+	margin-top: 47%;
+	background-position: center;
+	background-size: 80%;
+}
+
+
+@keyframes appMenu1 {
+	from {
+		margin-left: 0%;
+		opacity: 0;
+	}
+	to {
+		margin-left:10%;
+		opacity: 100;
+	}
+}
+
+@keyframes appMenu2 {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 100;
+	}
+}
+
+@keyframes appMenu3 {
+	from {
+		margin-left: 100%;
+		opacity: 0;
+	}
+	to {
+		margin-left:75%;
+		opacity: 100;
+	}
+}
+
+
+
+.text1 {
+	position: absolute;
+	font-family: verdana;
+	margin-top: -5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: 150%;
+	color: #1a91bd;
+	text-align: center;
+	animation-duration: 2.5s;
+	animation-name: text1APP;
+}
+
+#image1 {
+	margin-top: 12%;
+	margin-left: 10%;
+	height: 15%;
+	width: 48%;
+	position: absolute;
+	animation-duration: 2s;
+	animation-name: image1APP;
+}
+
+.text2 {
+	margin-top: 12%;
+	margin-right: 10%;
+	margin-left: 60%;
+	font-size: 130%;
+	font-family: verdana;
+	color: #1a91bd;
+	text-align: justify;
+	position: absolute;
+	animation-duration: 4s;
+	animation-name: text234APP;
+}
+
+#image2 {
+	margin-top: 42%;
+	margin-left: 50%;
+    margin-right: 10%;
+	height: 15%;
+	width: 40%;
+	position: absolute;
+	animation-duration: 2s;
+	animation-name: image2APP;
+}
+
+.text3 {
+	margin-top: 42%;
+	margin-left: 10%;
+	margin-right: 52%;
+	font-size: 143%;
+	font-family: verdana;
+	color: #1a91bd;
+	text-align: justify;
+	position: absolute;
+	animation-duration: 4s;
+	animation-name: text234APP;
+}
+
+#image3 {
+	margin-top: 73%;
+	margin-left: 10%;
+	height: 15%;
+	width: 40%;
+	position: absolute;
+	animation-duration: 2s;
+	animation-name: image3APP;
+}
+
+.text4 {
+	margin-top: 73%;
+	margin-right: 9%;
+	margin-left: 53%;
+	font-size: 138%;
+	font-family: verdana;
+	color: #1a91bd;
+	text-align: justify;
+	position: absolute;
+	animation-duration: 4s;
+	animation-name: text234APP;
+}
+
+
+
+
+#image4 {
+	margin-top: 105%;
+	margin-left: 50%;
+    margin-right: 10%;
+	height: 15%;
+	width: 40%;
+	position: absolute;
+	animation-duration: 2s;
+	animation-name: image2APP;
+}
+
+.text10 {
+	margin-top: 101%;
+	margin-left: 10%;
+	margin-right: 52%;
+	font-size: 143%;
+	font-family: verdana;
+	color: #1a91bd;
+	text-align: justify;
+	position: absolute;
+	animation-duration: 4s;
+	animation-name: text234APP;
+}
+
+#image5 {
+	margin-top: 136%;
+	margin-left: 10%;
+	height: 15%;
+	width: 40%;
+	position: absolute;
+	animation-duration: 2s;
+	animation-name: image3APP;
+}
+
+.text11 {
+	margin-top: 136%;
+	margin-right: 9%;
+	margin-left: 53%;
+	font-size: 138%;
+	font-family: verdana;
+	color: #1a91bd;
+	text-align: justify;
+	position: absolute;
+	animation-duration: 4s;
+	animation-name: text234APP;
+}
+
+
+.text5 {
+	position: absolute;
+	font-family: verdana;
+	margin-top: 210%;
+	margin-left: 17%;
+	font-size: 150%;
+	color: #1a91bd;
+	text-align: center;
+}
+
+#link1 {
+	font-family: Verdana;
+	color: #1a91bd;
+}
+
+
+#link2 {
+	position: absolute;
+	height: 51%;
+	width: 40%;
+	margin-top: 135%;
+	margin-left: 19%;
+	padding: 0px;
+}
+
+#link3 {
+	position: absolute;
+	height: 40%;
+	width: 51%;
+	margin-top: 135%;
+	margin-left: 48%;
+	padding: 0px;
+}
+
+.endOfPage {
+	margin-top: 220%;
+	position: absolute;
+	color: white;
+}
+
+@keyframes image1APP {
+	from {
+		margin-left: -100%;
+	}
+	to {
+		margin-left: 10%;
+	}
+}
+
+@keyframes text1APP {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 100;
+	}
+}
+
+@keyframes image2APP {
+	from {
+		margin-left: 100%;
+		opacity: 0;
+	}
+	50% {
+		margin-left: 100%;
+		opacity: 0;
+	}
+	to {
+		margin-left: 50%;
+		opacity: 100;
+	}
+}
+
+@keyframes image3APP {
+	from {
+		margin-left: -100%;
+	}
+	75% {
+		margin-left: -100%;
+	}
+	to {
+		margin-left: 10%;
+	}
+}
+
+@keyframes text234APP {
+	from {
+		color: white;
+	}
+	to {
+		color: #1a91bd;
+	}
+}

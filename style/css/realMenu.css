@@ -1,0 +1,84 @@
+
+/*global menu*/
+
+.Menu1 {
+	text-decoration: none;
+	color: #1a91bd;
+	font-size: 160%;
+	position: absolute;
+	padding: 0.5%;
+	font-family: Verdana;
+	margin-left: 32%;
+	margin-top: 5%;
+	animation-duration: 2s;
+	animation-name: appMenu1;
+}
+
+.Menu2 {
+	text-decoration: none;
+	color: #1a91bd;
+	font-size: 160%;
+	position: absolute;
+	padding: 0.5%;
+	font-family: Verdana;
+	margin-left: 44%;
+	margin-top: 5%;
+	animation-duration: 2s;
+	animation-name: appMenu2;
+}
+
+.Menu3 {
+	text-decoration: none;
+	color: #1a91bd;
+	font-size: 160%;
+	position: absolute;
+	padding: 0.5%;
+	font-family: Verdana;
+	margin-left: 58%;
+	margin-top: 5%;
+	animation-duration: 2s;
+	animation-name: appMenu3;
+}
+
+
+
+@keyframes appMenu1 {
+	from {
+		margin-left: 0%;
+		opacity: 0;
+	}
+	to {
+		margin-left:32%;
+		opacity: 100;
+	}
+}
+
+@keyframes appMenu2 {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 100;
+	}
+}
+
+@keyframes appMenu3 {
+	from {
+		margin-left: 100%;
+		opacity: 0;
+	}
+	to {
+		margin-left:58%;
+		opacity: 100;
+	}
+}
+
+#logo-etik {
+    position: absolute;
+    margin-top: -55%;
+    margin-left: 35%;
+    width: 35%;
+    height: 17%;
+    animation-duration: 2s;
+    animation-name: logo-etikAPP;
+}
